@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="theme.css">
+    <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBKBtGJlT_jSr1DaLRwApuU4ouGr2ModSOrQ&usqp=CAU">
+    <title>Ticket Sales</title>
+</head>
+
+<body>
+    <header>
+    <a href="page acceuil.html">
+      <h1>SeatBooker</h1>
+    </a>
+    <nav>
+      <ul>
+        <li><a href="page acceuil.html">Accueil</a></li>
+        <li><a href="Ticket Sales.html">Billet de Concert</a></li>
+        <li><a href="Théatre.html">Billet de Théâtre</a></li>
+        <li><a href="Sport.html">Billet de Sport</a></li>
+        <li><a href="#">Panier</a></li>
+        <li><a href="compte.html">Mon Compte</a></li>
+      </ul>
+    </nav>
+  </header>
+    <hr>
+    <div class="interet">
+        <h1 id="get-your-tickets-now">Get Your Tickets Now</h1>
+        <p id="banner"><img src="banner.jpg" alt="EDM Festival"></p>
+    </div>
+    <div class="prez">
+        <p>Join the party at the EDM Festival! We have ticket packages to fit every budget and preference. </p>
+        <h2 id="ticket-packages">Ticket Packages</h2>
+        <h3 id="general-admission">General Admission</h3>
+        <ul>
+            <li>Access to all three days of the festival</li>
+            <li>Standing room only</li>
+            <li>Price: $200</li>
+        </ul>
+        <h3 id="vip-admission">VIP Admission</h3>
+        <ul>
+            <li>Access to all three days of the festival</li>
+            <li>Exclusive VIP areas with seating and shade</li>
+            <li>Private restrooms</li>
+            <li>Price: $500</li>
+        </ul>
+        <h3 id="platinum-admission">Platinum Admission</h3>
+        <ul>
+            <li>Access to all three days of the festival</li>
+            <li>Exclusive Platinum areas with premium seating and shade</li>
+            <li>Open bar and complimentary snacks</li>
+            <li>Private restrooms</li>
+            <li>Price: $1000</li>
+        </ul>
+    </div>
+    <div class="prez">
+        <h2 id="schedule">Schedule</h2>
+        <h3 id="friday-june-23">Friday, June 23</h3>
+        <ul>
+            <li>5:00 pm - Gates open</li>
+            <li>6:00 pm - Opening acts begin</li>
+            <li>9:00 pm - Headliner performance</li>
+        </ul>
+        <h3 id="saturday-june-24">Saturday, June 24</h3>
+        <ul>
+            <li>4:00 pm - Gates open</li>
+            <li>5:00 pm - Opening acts begin</li>
+            <li>8:00 pm - Headliner performance</li>
+        </ul>
+        <h3 id="sunday-june-25">Sunday, June 25</h3>
+        <ul>
+            <li>3:00 pm - Gates open</li>
+            <li>4:00 pm - Opening acts begin</li>
+            <li>7:00 pm - Headliner performance</li>
+        </ul>
+    </div>
+    <h2 id="venue-information">Venue Information</h2>
+    <h3 id="location">Location</h3>
+    <ul>
+        <li>EDM Festival Grounds</li>
+        <li>1234 Main St, City, State</li>
+    </ul>
+    <h3 id="parking">Parking</h3>
+    <ul>
+        <li>Limited on-site parking available for $20 per day</li>
+        <li>Additional off-site parking with shuttle service available for $10 per day</li>
+    </ul>
+    <footer>
+        <h2 id="faq">FAQ</h2>
+        <a href="Ticket Sales.html">
+            <h3 id="how-do-i-purchase-tickets-">How do I purchase tickets?</h3>
+        </a>
+        <p>You can purchase tickets online at our website, or at the festival entrance.</p>
+        <a href="Ticket Sales.html">
+            <h3 id="what-is-the-age-limit-for-the-festival-">What is the age limit for the festival?</h3>
+        </a>
+        <p>You must be 18 or older to attend the festival.</p>
+        <a href="Ticket Sales.html">
+            <h3 id="what-can-i-bring-to-the-festival-">What can I bring to the festival?</h3>
+        </a>
+        <p>You can bring a small bag or backpack, but no outside food or drinks are allowed. We provide food and drink vendors on site.</p>
+        <a href="Ticket Sales.html">
+            <h3 id="is-there-seating-available-">Is there seating available?</h3>
+        </a>
+        <p>Only VIP and Platinum ticket holders have access to seating areas.</p>
+        <a href="Ticket Sales.html">
+            <h3 id="are-pets-allowed-">Are pets allowed?</h3>
+        </a>
+        <p>No, pets are not allowed at the festival.</p>
+        <form action="submit-form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </footer>
+</body>
+
+</html>

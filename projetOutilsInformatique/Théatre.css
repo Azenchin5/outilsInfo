@@ -1,0 +1,130 @@
+/* Style pour le corps de la page */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Style pour l'en-tête */
+header {
+  background-color: #111;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header input{
+  background-color: #e0e0e0;
+  height: 35px;
+  margin-left: -200px;
+  border-width: 1px;
+}
+
+header h1 {
+  margin: 0;
+  color: #d1410c;
+}
+
+header a{
+  text-decoration: none;
+}
+
+header a:hover{
+  text-decoration: underline;
+  color: #d1410c;
+  
+  }
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited{
+    color:white;
+    text-decoration: none;
+    }
+
+a:hover{
+    text-decoration:underline;
+    }
+    
+/* Style pour les sections de spectacles */
+.spectacle {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 5px #ccc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.spectacle h2 {
+  margin-top: 0;
+  font-size: 24px;
+}
+
+.spectacle p {
+  margin: 10px 0;
+}
+
+.spectacle img {
+  max-width: 100%;
+  height:360px;
+  width:640px;
+  margin: 10px 0;
+}
+
+.spectacle form {
+  display: flex;
+  align-items: center;
+}
+
+.spectacle label {
+  margin-right: 10px;
+}
+
+.spectacle input[type="number"] {
+  width: 50px;
+  margin-right: 10px;
+}
+
+.spectacle button {
+  background-color: #333;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.spectacle button:hover {
+  background-color: #555;
+
+}
+
+.description{
+    text-align:justify;
+    }
+
+footer {
+        background-color: #111;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        margin-top:auto;
+      }

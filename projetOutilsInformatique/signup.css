@@ -1,0 +1,41 @@
+#refresh{
+    margin-left: 5px;
+    background-color: #d1410c;
+    color: white;
+    width: 116px; 
+    height: 49px;   
+  }
+  
+  #refresh:hover{
+    background-color: #e9490f;
+    cursor: pointer;
+  }
+
+#text{
+    height: 25px;
+    border-radius: 5px;
+    padding: 4px;
+    border: solid thin #aaa;
+    width: 100%;
+}
+
+#button{
+    padding: 10px;
+    width: 100px;
+    color: white;
+    background-color: lightblue;
+    border: none;
+}
+
+#box{
+    background-color: grey;
+    margin: auto;
+    width: 300px;
+    padding: 20px;
+}
+
+.login1{
+    font-size: 20px;
+    margin: 20px;
+    color: white;
+}

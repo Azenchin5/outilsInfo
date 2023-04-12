@@ -1,0 +1,186 @@
+ /* Styles pour la mise en page */
+ body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display:flex;
+    flex-direction: column;
+  }
+/* Style pour l'en-tête */
+header {
+  background-color: #111;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header input{
+    background-color: #e0e0e0;
+    height: 35px;
+    margin-left: -200px;
+    border-width: 1px;
+}
+
+header h1 {
+  margin: 0;
+  color: #d1410c;
+}
+
+header a{
+text-decoration: none;
+}
+
+header a:hover{
+text-decoration: underline;
+color: #d1410c;
+
+}
+
+nav ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+display: flex;
+}
+
+nav li {
+margin-right: 20px;
+}
+
+nav a {
+color: white;
+text-decoration: none;
+}
+
+a:visited{
+color: white;
+text-decoration: none;
+}
+
+a:hover{
+text-decoration:underline;
+}
+
+footer {
+    background-color: #111;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: auto;
+  }
+
+.login{
+    background-color: white;
+    float: left;
+    margin: 20px;
+    background-color: rgb(255, 255, 255);
+    width: 600px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    text-align: center;
+    height: 570px;
+  
+}
+.login p{
+  margin: 0;
+
+}
+
+.login canvas{
+  margin-top: 10px;
+}
+
+.login h1{
+    font-size: 40px;
+    font-weight: bold;
+
+}
+
+.login input{
+    border-width: 1px;
+    height: 45px;
+    margin-top: 10px;
+}
+
+
+
+#login1{
+    background-color: #d1410c;
+    color: white;
+    width: 323px;    
+}
+
+#login1:hover{
+    background-color: #e9490f;
+    cursor: pointer;
+}
+
+.loginimage{
+    float: right;
+    
+}
+
+.compte{
+    display: flexbox;
+    
+}
+
+#submit1{
+  background-color: #d1410c;
+  color: white;
+  width: 116px; 
+  height: 49px;   
+}
+
+#submit1:hover{
+  background-color: #e9490f;
+  cursor: pointer;
+}
+
+
+.login a{
+  color: black;
+}
+
+label {
+  display: block;
+  padding-left: 15px;
+  text-indent: -15px;
+}
+
+#check1 {
+  width: 15px;
+  height: 15px;
+  padding: 0;
+  margin: 0;
+  margin-right: 10px;
+  vertical-align: bottom;
+  position: relative;
+  top: -1px;
+}
+
+.otherlogin a{
+  text-decoration: none;
+}
+
+.otherlogin img{
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  display: inline;
+  margin-right: 25px;
+  margin-left: 25px;
+
+}
+
+#inscrit{
+  color: #d1410c;
+  text-decoration: none;
+}
+
+#inscrit:hover{
+  text-decoration: underline;
+}
